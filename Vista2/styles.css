@@ -1,0 +1,111 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+}
+
+nav {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+footer {
+  background-color: #fff;
+  color: #666;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+.shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop img {
+  width: 50%;
+  height: auto;
+}
+
+.shop div {
+  width: 45%;
+}
+
+.shop,
+.restaurant,
+.entertainment {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.shop h3,
+.restaurant h3,
+.entertainment h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.shop p,
+.restaurant p,
+.entertainment p {
+  color: #666;
+}
